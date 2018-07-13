@@ -12,7 +12,7 @@ Package.onUse(function(api) {
     'templating',
     'underscore',
     'reactive-var',
-    'aldeed:autoform@5.8.1',
+    'aldeed:autoform@6.3.0',
     'summernote:standalone@0.8.1'
   ], 'client');
 
