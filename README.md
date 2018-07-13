@@ -1,19 +1,19 @@
-Summernote for AutoForm
+Summernote for [AutoForm v6.3.0](https://github.com/aldeed/meteor-autoform)
 =======================
 
-Add WYSIWYG editor to your Meteor app.
+Add WYSIWYG editor to your Meteor app!
 
 ## Usage
 
-1) Install `meteor add mpowaga:autoform-summernote`
+1. Install `meteor add aniskhan001:autoform-summernote`
 
-2) Install bootstrap and fontawesome or skip this if you have them installed
+2. Install **bootstrap** and **fontawesome** (skip if already installed)
 
 `meteor add twbs:bootstrap`
 
 `meteor add fortawesome:fontawesome`
 
-3) Create schema
+3. Create schema
 
 ```
 var BookSchema = new SimpleSchema({
@@ -36,15 +36,15 @@ var BookSchema = new SimpleSchema({
 });
 ```
 
-4) Attach schema to your collection `Books.attachSchema(BookSchema)`
+4. Attach schema to your collection `Books.attachSchema(BookSchema)`
 
-5) Generate the form with `{{> quickform}}` or `{{#autoform}}`
+5. Generate the form with `{{> quickform}}` or `{{#autoform}}`
 
 ```
 {{> quickForm collection="Books" type="insert"}}
 ```
 
-6) Remember to [sanitize the HTML on the server](https://atmospherejs.com/?q=sanitize)! Summernote doesn't do that, and even if it did, the client could always send HTML containing `<script>` tags.
+6. Remember to [sanitize the HTML on the server](https://atmospherejs.com/?q=sanitize)! Summernote doesn't do that, and even if it did, the client could always send HTML containing `<script>` tags.
 
 ## Summernote options
 
