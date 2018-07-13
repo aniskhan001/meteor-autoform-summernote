@@ -1,7 +1,7 @@
 Package.describe({
   name: 'aniskhan001:autoform-summernote',
   summary: 'Summernote editor for aldeed:autoform@6.3.0',
-  version: '0.5.0',
+  version: '0.5.5',
   git: 'https://github.com/aniskhan001/meteor-autoform-summernote'
 });
 
